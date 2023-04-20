@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ice Cream Recipe || Final</title>
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <!-- normalize -->
+    <link rel="stylesheet" href="./css/normalize.css" />
+    <!-- font-awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+    />
+    <!-- main css -->
+    <link rel="stylesheet" href="./css/main.css" />
+  </head>
+  <body>
+    <!-- nav  -->
+    <nav class="navbar">
+      <div class="nav-center">
+        <div class="nav-header">
+          <a href="index.html" class="nav-logo">
+            <img src="./assets/logo.svg" alt="simply recipes" />
+          </a>
+          <button class="nav-btn btn">
+            <i class="fas fa-align-justify"></i>
+          </button>
+        </div>
+        <div class="nav-links">
+          <a href="index.html" class="nav-link"> home </a>
+          <a href="about.html" class="nav-link"> about </a>
+          <a href="tags.html" class="nav-link"> tags </a>
+          <a href="recipes.html" class="nav-link"> recipes </a>
+
+          <div class="nav-link contact-link">
+            <a href="contact.html" class="btn"> contact </a>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- end of nav -->
+    <main class="page">
+      <div class="recipe-page">
+        <section class="recipe-hero">
+          <img
+            src="./assets/images/ice cream.jpg"
+            class="img recipe-hero-img"
+          />
+          <article class="recipe-info">
+            <h2>Ice Cream</h2>
+            <p>
+              Ice cream is a frozen dessert made from a mixture of milk, cream,
+              sugar, and other flavorings. Its origins can be traced back to
+              ancient China and Persia, where people would mix snow and ice with
+              fruit and other flavorings to create a refreshing treat. The
+              modern version of ice cream is believed to have been first created
+              in Italy during the Renaissance, when recipes for iced desserts
+              made from milk, cream, and sugar began to appear in cookbooks. Ice
+              cream became increasingly popular throughout Europe and North
+              America during the 18th and 19th centuries, and it has since
+              become a beloved dessert all around the world. Today, there are
+              countless varieties of ice cream, with a wide range of flavors,
+              toppings, and mix-ins.
+            </p>
+            <div class="recipe-icons">
+              <article>
+                <i class="fas fa-clock"></i>
+                <h5>prep time</h5>
+                <p>15 min.</p>
+              </article>
+              <article>
+                <i class="far fa-clock"></i>
+                <h5>cook time</h5>
+                <p>10 min.</p>
+              </article>
+              <article>
+                <i class="fas fa-user-friends"></i>
+                <h5>serving</h5>
+                <p>4-6 servings</p>
+              </article>
+            </div>
+            <p class="recipe-tags">
+              Tags : <a href="breakfast.html">Breakfast</a>
+              <a href="lunch.html">Lunch</a>
+              <a href="dinner.html">Dinner</a>
+              <a href="dessert.html">Dessert</a>
+            </p>
+          </article>
+        </section>
+        <!-- content -->
+        <section class="recipe-content">
+          <article>
+            <h4>instructions</h4>
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 1</p>
+                <div></div>
+              </header>
+              <p>
+                In a medium saucepan, heat the heavy cream, whole milk, and
+                sugar over medium heat until the sugar has dissolved, stirring
+                occasionally.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 2</p>
+                <div></div>
+              </header>
+              <p>Remove from heat and stir in the vanilla extract and salt.</p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 3</p>
+                <div></div>
+              </header>
+              <p>Let the mixture cool to room temperature.</p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 4</p>
+                <div></div>
+              </header>
+              <p>
+                Pour the mixture into an ice cream maker and churn according to
+                the manufacturer's instructions.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+            <!-- single instruction -->
+            <div class="single-instruction">
+              <header>
+                <p>step 5</p>
+                <div></div>
+              </header>
+              <p>
+                Transfer the ice cream to a freezer-safe container and freeze
+                for several hours, or until firm.
+              </p>
+            </div>
+            <!-- end of single instruction -->
+          </article>
+          <article class="second-column">
+            <div>
+              <h4>ingredients</h4>
+              <p class="single-ingredient">2 cups heavy cream</p>
+              <p class="single-ingredient">1 cup whole milk</p>
+              <p class="single-ingredient">3/4 cup granulated sugar</p>
+              <p class="single-ingredient">1 tablespoon vanilla extract</p>
+              <p class="single-ingredient">Pinch of salt</p>
+            </div>
+            <div>
+              <h4>tools</h4>
+              <p class="single-tool">Medium saucepan</p>
+              <p class="single-tool">Whisk</p>
+              <p class="single-tool">Measuring cups and spoons</p>
+              <p class="single-tool">Ice cream maker</p>
+              <p class="single-tool">Freezer-safe container</p>
+            </div>
+          </article>
+        </section>
+      </div>
+    </main>
+    <!-- footer -->
+    <footer class="page-footer">
+      <p>
+        &copy; <span id="date"></span>
+        <span class="footer-logo">AwesomeRecipes</span> Built by
+        <a href="mailto:emmaasante676@gmail.com">Coding Addict</a>
+      </p>
+    </footer>
+    <script src="./js/app.js"></script>
+  </body>
+</html>
